@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentExtraInfo"
+    android:background="@color/colorPrimaryDark">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FAF6F7"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F5F4F2"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewYourRuler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Ваш управитель:"
+                    android:textColor="#F87FB4"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewRuler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:paddingLeft="20dp"
+                    android:text="TextView"
+                    android:textColor="#6AE0EB"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewRulerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B1F587"
+                android:justificationMode="inter_word"
+                android:text="Текст управителя"
+                android:textColor="#110F16"
+                android:textSize="18sp" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton"
+                android:textOff="Дополнительно"
+                android:textOn="Скрыть" />
+
+            <TextView
+                android:id="@+id/textViewExtraAdditional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#AFE489"
+                android:justificationMode="inter_word"
+                android:text="TextView"
+                android:textColor="#030203"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

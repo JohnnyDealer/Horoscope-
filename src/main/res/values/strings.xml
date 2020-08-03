@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Гороскоп</string>
+
+    <string name="statement_1">У меня есть всё, что мне нужно.</string>
+    <string name="statement_2">В детстве я хотел стать тем, кто я есть сейчас.</string>
+    <string name="statement_3">Бывает, что мне снится, будто я Скрудж МакДак.</string>
+    <string name="statement_4">Единственный ресторан, в котором я чувствую себя не как золушка на балу, это ресторан быстрого питания.</string>
+    <string name="statement_5">Я покупаю дорогие шампуни, чтобы быть таким же успешным, как Александр Ревва.</string>
+    <string name="statement_6">Когда я слышу «Тони», мне всегда хочется сказать «Роббинс».</string>
+    <string name="statement_7">Мой любимый фильм - «Волк с Уолл-Стрит».</string>
+    <string name="statement_8">Первое правило бойцовского клуба - не упоминать о бойцовском клубе.</string>
+    <string name="statement_9">Я стараюсь вставать с одной и той же ноги каждое утро.</string>
+    <string name="statement_10">«М» - значит «мотивация», если речь идёт о моей истории запросов в YouTube.</string>
+
+    <string name="leftpole_1">Так точно</string>
+    <string name="leftpole_2">Так точно</string>
+    <string name="leftpole_3">Ни в коем разе</string>
+    <string name="leftpole_4">Так точно</string>
+    <string name="leftpole_5">Ни в коем разе</string>
+    <string name="leftpole_6">Ни в коем разе</string>
+    <string name="leftpole_7">Вовсе нет</string>
+    <string name="leftpole_8">Вовсе нет</string>
+    <string name="leftpole_9">Вовсе нет</string>
+    <string name="leftpole_10">Вовсе нет</string>
+
+    <string name="rightpole_1">Ни в коем случае</string>
+    <string name="rightpole_2">Ни в коем случае</string>
+    <string name="rightpole_3">Постоянно</string>
+    <string name="rightpole_4">Ни в коем случае</string>
+    <string name="rightpole_5">Постоянно</string>
+    <string name="rightpole_6">Постоянно</string>
+    <string name="rightpole_7">Разумеется</string>
+    <string name="rightpole_8">Разумеется</string>
+    <string name="rightpole_9">Разумеется</string>
+    <string name="rightpole_10">Разумеется</string>
+
+    <string name="passion_aries">100</string>
+    <string name="passion_leo">50</string>
+    <string name="passion_sagittarius">75</string>
+    <string name="passion_taurus">25</string>
+    <string name="passion_virgo">100</string>
+    <string name="passion_capricorn">50</string>
+    <string name="passion_gemini">75</string>
+    <string name="passion_libra">25</string>
+    <string name="passion_aquarius">100</string>
+    <string name="passion_cancer">50</string>
+    <string name="passion_scorpio">75</string>
+    <string name="passion_pisces">25</string>
+
+    <string name="answ_1">0</string>
+    <string name="answ_2">1</string>
+    <string name="answ_3">2</string>
+    <string name="answ_4">3</string>
+    <string name="answ_5">4</string>
+
+    <string name="success">Вы круты.
+
+        Степень вашей пассионарности и активность клеточек ректикулярной формации позволяют вам успешно решать задачи, которые вы перед собой ставите.
+
+        С другой стороны, вам нельзя оставаться без дела. Энергия, которую вы в себе копите, может обернуться против вас.
+
+        Вы не сможете жить без тех вызовов, которые бросает вам жизнь.
+
+        Вы на верном пути.
+
+    Удачи!</string>
+    <string name="tooamb">Умерьте свой пыл.
+
+    Боюсь, что вы чересчур амбициозны. Ваши требования к жизни не соответсвуют уровню вашей «горячести».
+
+    Не спешите расстраиваться. Взгляните на это с другой стороны: вам не нужна головная боль президентов, акул бизнеса или культовых режиссёров.
+
+    Сосредоточтесь на родных и близких, найдите себе хобби и будьте счастливы!</string>
+
+    <string name="succsess_case">ПОЗДРАВЛЯЕМ!</string>
+    <string name="tooamb_case">У НАС ДЛЯ ВАС НОВОСТИ...</string>
+
+    <string name="intro_header">ИНСТРУКЦИЯ</string>
+    <string name="intro">«Тест на успех» проверит, насколько ваши амбиции коррелируют с вашими возможностями.
+
+    Вы увидите несколько утверждений. Вам предстоит оценить, насколько они вам импонируют, и указать, к какому из «полюсов» вы больше склоняетесь.
+
+    Также вы можете выбрать нейтральный вариант ответа (посередине), если затрудняетесь с ответом.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

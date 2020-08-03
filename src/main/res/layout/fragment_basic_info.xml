@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentBasicInfo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textBoxToday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CFF5B2"
+                android:justificationMode="inter_word"
+                android:singleLine="false"
+                android:text="Здесь текст на сегодня"
+                android:textAlignment="viewStart"
+                android:textColor="#232B6B"
+                android:textSize="18sp"
+                android:typeface="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EB9393"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Известные представители:"
+                    android:textColor="#2C142A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textBoxFamousPeople"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#7AADF1"
+                android:justificationMode="inter_word"
+                android:text="Представители"
+                android:textColor="#0E2B41"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

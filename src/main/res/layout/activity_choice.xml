@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choice">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="1440px"
+                android:layout_height="631px"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AriesButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/aries"
+                    android:onClick="sendInfo" />
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="12px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#6A1B9A" />
+
+                <Button
+                    android:id="@+id/TaurusButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/taurus"
+                    android:onClick="sendInfo" />
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="12px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#6A1B9A" />
+
+                <Button
+                    android:id="@+id/GeminiButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/gemini"
+                    android:onClick="sendInfo" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="12px"
+                android:background="#6A1B9A" />
+
+            <LinearLayout
+                android:layout_width="1440px"
+                android:layout_height="631px"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/CancerButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/cancer"
+                    android:onClick="sendInfo" />
+
+                <View
+                    android:id="@+id/divider33"
+                    android:layout_width="12px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#6A1B9A" />
+
+                <Button
+                    android:id="@+id/LeoButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/leo"
+                    android:onClick="sendInfo" />
+
+                <View
+                    android:id="@+id/divider412"
+                    android:layout_width="12px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#6A1B9A" />
+
+                <Button
+                    android:id="@+id/VirgoButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/virgo"
+                    android:onClick="sendInfo" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="12px"
+                android:background="#6A1B9A" />
+
+            <LinearLayout
+                android:layout_width="1440px"
+                android:layout_height="631px"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/LibraButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/libra"
+                    android:onClick="sendInfo" />
+
+                <View
+                    android:id="@+id/divider1233"
+                    android:layout_width="12px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#6A1B9A" />
+
+                <Button
+                    android:id="@+id/ScorpioButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/scorpio"
+                    android:onClick="sendInfo" />
+
+                <View
+                    android:id="@+id/divider1234"
+                    android:layout_width="12px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#6A1B9A" />
+
+                <Button
+                    android:id="@+id/SagittariusButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/sagittarius"
+                    android:onClick="sendInfo" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="12px"
+                android:background="#6A1B9A" />
+
+            <LinearLayout
+                android:layout_width="1440px"
+                android:layout_height="631px"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/CapricornButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/capricorn"
+                    android:onClick="sendInfo" />
+
+                <View
+                    android:id="@+id/divider1113"
+                    android:layout_width="12px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#6A1B9A" />
+
+                <Button
+                    android:id="@+id/AquariusButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/aquarius"
+                    android:onClick="sendInfo" />
+
+                <View
+                    android:id="@+id/divider4634634"
+                    android:layout_width="12px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#6A1B9A" />
+
+                <Button
+                    android:id="@+id/PiscesButton"
+                    android:layout_width="472px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/pisces"
+                    android:onClick="sendInfo" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

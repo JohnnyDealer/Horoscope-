@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.windowmain">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".semen.PageActivity"
+            android:label="Выбор знака">
+            <intent-filter>
+                <action android:name=".PageActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".semen.Affairs"
+            android:label="Связи">
+            <intent-filter>
+                <action android:name=".Affairs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dima.Res"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name=".Res" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dima.Prev">
+            <intent-filter>
+                <action android:name=".Prev" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dima.SuccessTest"
+            android:label="Тест">
+            <intent-filter>
+                <action android:name=".SuccessTest" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".roman.ChoiceCompatibility">
+            <intent-filter>
+                <action android:name=".ChoiceCompatibility" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".roman.Compatibility"
+            android:label="Совместимость">
+            <intent-filter>
+                <action android:name=".Compatibility" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ruslan.MyHoroscope"
+            android:label="Мой гороскоп">
+            <intent-filter>
+                <action android:name=".MyHoroscope" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu"
+            android:label="Меню">
+            <intent-filter>
+                <action android:name=".Menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Choice"
+            android:label="Выбор знака">
+            <intent-filter>
+                <action android:name=".Choice" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="Гороскоп">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
